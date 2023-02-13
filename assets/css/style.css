@@ -1,0 +1,50 @@
+body{
+    background:url(../img/fondo.jpg);
+    
+}
+.color-barra{
+    background-color: #e9ecefe8  !important;
+}
+.ico-circle {
+    height:75px;
+    width: 75px;
+    font-size: 3rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #92add1;
+    display: block;
+   
+    
+}
+
+.image-size{
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    color: #0d0d0d;
+    padding: 25px 0;
+    
+}
+.ir-arriba{
+    display: none;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+@media (min-width: 992px) {
+    .image-size{
+        width: 200px !important;
+    }
+    
+}
+
